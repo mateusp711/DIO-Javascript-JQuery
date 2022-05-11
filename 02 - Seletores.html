@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            var campo = $("input").val();
+            var titulo = $("#titulo").html();
+            var substitulo = $(".substitulo").html();
+
+
+            alert(campo);
+            alert(titulo);
+            alert(substitulo);
+            
+        });  
+
+    </script>
+</head>
+<body>
+    <input type="text" value="Campo Nome">
+    <h1 id="titulo">Titulo em H1</h1>
+    <h2 class="substitulo">titulo em h2</h2>
+
+</body>
+</html>
